@@ -32,7 +32,7 @@ def Regression_Lineaire():
 
     if page == pages[0] : 
         
-        st.write("### Contexte du projet")
+        st.write("Un modèle de régression linéaire a été développé pour prédire les ventes futures en fonction de diverses variables")
         
         
         
@@ -222,5 +222,5 @@ def Regression_Lineaire():
             
             
             # Afficher la prédiction
-        st.write(f"La performance académique prédite de l'étudiant est de: {np.round(prediction[0], 2)}")
+        st.write(f" {np.round(prediction[0], 2)}")
         
