@@ -25,7 +25,7 @@ import pickle
 
 def Regression_Lineaire():
     st.title(" Regression Linéaire")
-    df= pd.read_csv("C:\\Users\\hp\\Desktop\\MymodelApp\\d-ploiement_model_kubernet-2\\online_retail.csv")
+    df= pd.read_csv("online_retail.csv")
     pages = ["Contexte du projet", "Exploration des données", "Analyse de données", "Modélisation"]
 
     page = st.sidebar.radio("Aller vers la page :", pages)
