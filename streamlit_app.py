@@ -1,5 +1,4 @@
-# Configure Streamlit to run in production
-st.set_option('server.enableCORS', False)
+
 
 import streamlit as st
 import pandas as pd
